@@ -1,0 +1,20 @@
+第一天的内容：
+
+clone到本地 git clone 'address'；address为需要clone的地址
+clone成功后会生成一个文件夹，cd 到文件夹下，根据情况往里面添加文件
+我的是一个空项目，所以colone下来后，把我java项目中的 src 和 pom.xml扔进去提交即可
+git status命令可以查看文件状态(可不执行，只是用于查看文件状态)
+git add -A提交所有变化 ( -A 命令区分大小写)  
+git commit -a -m"内容" 提交到本地   
+   需要注意的是：提交注释的时候，备注完成后 在这个界面，按一下Esc,再输入:wq。然后回车就OK了。
+git push 上传更新到git版本库
+
+
+
+第二天需要去查找的内容：
+只实验了全部提交的方式 git add -A  ,那么如何同时修改了多个文件只想提交一个文件到本地的时候或者提交到github官网的时候，应该如何操作？？
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "git\346\217\220\344\272\244\345\221\275\344\273\244\347\254\224\350\256\260.txt"
+		这个乱码的文件怎么才能让git命令窗口里显示正常的名称，是编码方式不对吗。怎么修改这个编码方式？
+		
