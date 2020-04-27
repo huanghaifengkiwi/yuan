@@ -1,0 +1,7 @@
+git clone  地址 （默认拉取的是master分支）
+切换分支方法：
+git  init  首页初始化下本地的仓库，代码文件夹里会出现.git 文件夹（我是进入到down的master分支文件夹里进行初始化）
+git checkout -b  创建的本地分支名  origin/远程分支名 （例：git  checkout -b  newMaster   origin/newMaster）
+查看当前分支名：
+git branch -vv(带星标的为当前分支)
+cat .git/HEAD(如果再深究一下，也就是HEAD指针当指向的那个分支,现在看一下.git/HEAD中的内容，代码如下：cat .git/HEAD)
